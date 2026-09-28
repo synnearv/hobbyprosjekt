@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  justify-content: center;
+
+  padding: 80px 20px;
+}
+
+.home-card {
+  max-width: 700px;
+  text-align: center;
+}
+
+.home-card h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}

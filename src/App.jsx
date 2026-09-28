@@ -1,17 +1,16 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="card">
-      <h1>Hei og velkommen til Thea og Synne sin kollektivside 🩷</h1>
-      <p>
-        Thea og Synne sitt hobbyprosjekt. 
-        Vi skal lage en nettside som hjelper oss med div kollektiv greier!
-      </p>
-      <p>
-        Vi kan endre koden for appen i filen <code>src/App.jsx</code>
-      </p>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
