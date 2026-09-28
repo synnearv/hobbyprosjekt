@@ -3,15 +3,13 @@ import "./App.css";
 function App() {
   return (
     <div className="card">
-      <h1>Velkommen! 👋</h1>
+      <h1>Hei og velkommen til Thea og Synne sin kollektivside 🩷</h1>
       <p>
-        Du kan se koden for dette prosjektet{" "}
-        <a href="https://github.com/bekk/prosjektutgangspunkt">
-          i repoet på GitHub
-        </a>
+        Thea og Synne sitt hobbyprosjekt. 
+        Vi skal lage en nettside som hjelper oss med div kollektiv greier!
       </p>
       <p>
-        Du kan endre koden i <code>src/App.jsx</code>
+        Vi kan endre koden for appen i filen <code>src/App.jsx</code>
       </p>
     </div>
   );
